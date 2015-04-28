@@ -421,5 +421,65 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+  
+  p {
+	font-family: Tahoma;
+	font-size: 2em;
+	text-align: left;
+}
+
+.ifm{
+    font-size: 16px;
+}
+
+div {
+    font-size:100px;
+    height:100px;
+    width:75px;
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    height:120px;
+    width:75px;
+    display: inline-block;
+    text-align: center;    
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+.open {
+    background-color:white;
+    font-size:0px;
+}
+
+.highlighted {
+    -webkit-box-shadow: 0 0 120px #FFD700;
+    -moz-box-shadow: 0 0 120px #FFD700;
+    box-shadow: 0 0 120px #FFD700;
+    cursor:pointer;
+}
+
+.winner {
+    background-color: green;
+}
+
+
+
+
+
+
+
 
 }
