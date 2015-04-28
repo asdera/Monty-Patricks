@@ -1,4 +1,5 @@
-  p {
+
+p {
 	font-family: Tahoma;
 	font-size: 2em;
 	text-align: left;
@@ -49,4 +50,8 @@ img{
 
 .winner {
     background-color: green;
+}
+
+.footer_wrap{
+	font-size: 50;
 }
