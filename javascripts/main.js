@@ -62,7 +62,7 @@ var switchy = function(){
 }
 
 var switching = function(pick, pick1, other, other1){
-    urchoice = confirm("One of the ZONKS! Has been revealed, now I give you the chioce to switch to the other door! OK or CANCEL");
+    urchoice = confirm("STOP!!!! Now is where you make the decision to switch doors or not. One of the doors will show a goat or will just hover a bit. That is the one of the goats revealed. So you have a choice to stay at the door you originaly picked (Click cancel) or switch to the left over door (Click Ok) ");
     if(!urchoice){
         openledoor(pick, pick1)
         $(pick).addClass('highlighted');
